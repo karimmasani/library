@@ -53,4 +53,8 @@ gulp.task('serve', ['style', 'inject'], function () {
         .on('restart', function (ev) {
             console.log('Restarting....');
         });
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> 4bf73c061d99c00c77889bb08d5662f0b2e368bb

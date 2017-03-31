@@ -11,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "ejs": "^2.5.6",
+=======
+>>>>>>> 4bf73c061d99c00c77889bb08d5662f0b2e368bb
     "express": "^4.15.2",
     "jade": "^1.11.0"
   },
