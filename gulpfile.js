@@ -32,7 +32,7 @@ gulp.task('inject', function () {
         ignorePath: '../../public'
     }
 
-    return gulp.src('./src/views/*.html')
+    return gulp.src('./src/views/*.ejs')
         .pipe(wiredep(options))
         .pipe(inject(injectSrc, options))
         .pipe(gulp.dest('./src/views'));
@@ -53,8 +53,4 @@ gulp.task('serve', ['style', 'inject'], function () {
         .on('restart', function (ev) {
             console.log('Restarting....');
         });
-<<<<<<< HEAD
-})
-=======
-})
->>>>>>> 4bf73c061d99c00c77889bb08d5662f0b2e368bb
+});
